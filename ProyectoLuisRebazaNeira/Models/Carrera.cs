@@ -10,7 +10,7 @@ namespace ProyectoLuisRebazaNeira.Models
         [Required, StringLength(50)]
         public string NombreCarrera { get; set; }
         [Required, StringLength(100)]
-        public string DescipcionCarrea {  get; set; }
+        public string DescripcionCarrera {  get; set; }
         [Required]
         public bool estado {  get; set; }
 
